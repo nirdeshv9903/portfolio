@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.boo{
+    background-color: #1b263b;
+    color: #fff;
+}
+.cer{
+    background-color: #000;
+}
+.nav_bar{
+    height:3.5rem;
+    background-color:#0d1b2a;
+}
+.nav_bar ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.nav_bar .items{
+    margin-top:1%;
+    margin-bottom: 1%;
+    color: #fff;
+    font-size:20px;
+}
+.items a{
+    color: #fff;
+}
+.nav_bar .logo img{
+    height:2rem;
+    margin-left: -12rem;
+}
+.name{
+    background-color: #1b263b;
+    width: 100%;
+    height:35rem;
+    padding-top: 8%;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+.name div h1{
+    color: rgb(213, 207, 227);
+    text-shadow: 5px 5px 10px #000;
+}
+#element{
+    color: #7a11ca;
+}
+.name div h1 strong{
+    text-shadow: 5px 5px 10px #000;
+}
+.name div img{
+    height:70%;
+    padding-bottom: 3rem;
+}
+.profile{
+    width: 100%;
+    height: 75%;
+    background-color: #e0e1dd;
+    position: relative;
+}
+.profile .par{
+    padding-top: 5%;
+    padding-bottom:5%;
+    margin-left: 40%;
+    width: 50%;
+    height: 80%;
+}
+.profile .image{
+    width: 35%;
+    background-color: antiquewhite;
+    position: absolute;
+    bottom:20%;
+    left:2%;
+    border-radius:50%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+}
+.edu{
+    background-color: #415A77;
+    width: 100%;
+    height: 65%;
+    z-index: 5;
+    text-align: center;
+    padding-bottom: 20rem;
+}
+.hori{
+    background-color: #000;
+    width:100%;
+    height:2px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hori .ver{
+    height:70px;
+    width:1.5px;
+    background-color: #000000;
+}
+.hori .ver strong{
+    height:10px;
+    width: 150px;
+    margin-top: 4rem;
+    position: relative;
+    top:5rem;
+    right: 5rem;
+    color: #000000;
+}
+.edu h1{
+    font-size: 100px;
+}   
+.ver h2{
+    font-size:40px;
+}   
+.skill{
+    text-align: center;
+    height:30rem;
+    background-color: #e0e1dd;
+    padding-top:2rem;
+}
+.skill h1{
+    font-size: 100px;
+}
+.skill p{
+    font-size: 30px;
+}
+.project{
+    height: 30rem;
+    text-align: center;
+    background-color: #778DA9;
+}
+.project h1{
+    font-size: 100px;
+}
+.project p{
+    font-size:20px;
+}
+.project strong{
+    font-size: 25px;
+}
+.foot{
+    height: 30rem;
+    padding: 10rem 0rem 0rem 5rem ;
+    background-color: #0d1b2a;
+    color: #fff;
+    
+}
+.foot h1{
+    font-size: 100px;
+}
+.foot div p{
+    width: 50rem;
+    font-size:20px;
+    margin: -15rem 0rem 0rem 35rem;
+}
+.info{
+    margin-left:10%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.info img{
+    width: 25px;
+    margin-right:10px;
+    margin-bottom: -5px;
+}
+.contact{
+    background-color: #E0E1DD;
+    height: 40.7rem;
+}
+.contact form{
+    text-align: center;
+}
+#f_name{
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    margin-top: 1rem;
+    border-radius:8px;
+}
+#l_name{
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    margin-top: 1rem;
+    border-radius:8px;
+    margin-left: 1rem;
+}
+#email{
+    padding: 0.5rem 16rem 0.5rem 16rem;
+    margin-top: 1rem;
+    border-radius:8px;
+}
+#mess{
+    padding: 5rem 16rem 5rem 16rem;
+    margin-top: 1rem;
+    border-radius:8px;
+}
+.but{
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    margin-left: -33rem;
+    background-color:#7b98bd;
+    box-shadow: 2px 2px 2px #0d1b2a;
+}
+.about{
+    margin: 2rem 2rem 0rem 2rem;
+}
+.pic{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+.pic img{
+    height:300px;
+    padding-top: 2%;
+    color: #fff;
+}
